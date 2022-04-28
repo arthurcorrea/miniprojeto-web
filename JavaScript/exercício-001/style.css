@@ -1,0 +1,97 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+input{
+    width: 85px;
+    height: 20px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.39);
+}
+
+input#radsex {
+    width: 20px;
+}
+
+input#verificar {
+    background-color: rgb(44, 132, 233, 0.445);
+    width: 130px;
+    font-weight: 600;
+    height: 25px;
+    margin-left: 170px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+#p2{
+    width: 85px;
+    text-align: center;
+}
+
+.inputimc {
+    display: block;
+    text-align: center;
+    margin: auto;
+    
+}
+
+#alt2{
+    width: 85px;
+}
+
+body{
+    background-color: rgba(44, 132, 233, 0.445);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+div#resultado1 {
+    padding-top: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+div#resultado2 {
+    padding-top: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+div#resultado3 {
+    padding-top: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+div#textosbasal {
+    padding: 15px;
+    text-align: center;
+}
+
+section{
+    padding-top: 10px;
+    background-color: rgb(255, 255, 255, 0.39);
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

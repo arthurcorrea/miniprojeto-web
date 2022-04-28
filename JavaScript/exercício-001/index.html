@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cálculos de saúde</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <section>
+
+        <header>
+            <h1>Taxa metabólica basal</h1>
+        </header>
+
+        <div id="textosbasal">
+            Peso em kg: <input type="number" name="" id="peso1">
+            <br>
+            Idade em anos: <input type="number" name="" id="idade1">
+            <br>
+            Altura em cm: <input type="number" name="" id="altura1">
+            <br>
+            
+            Sexo:
+                <input type="radio" name="radsex" id="radsex" checked>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="radsex" id="radsex">
+                <label for="feminino">Feminino</label>
+            
+
+        </div>
+
+        <input id="verificar" type="button" value="Verificar" onclick="verificar()">
+
+        <div id="resultado1">
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <header>
+            <h1>Calculadora de IMC</h1>
+        </header>
+        
+        <span class="inputimc">
+            Peso em kg: 
+            <input type="number" name="" id="p2">
+        </span> 
+
+        <span class="inputimc">
+            Altura em cm: 
+            <input type="number" name="" id="alt2">
+        </span>
+        
+        <input id="verificar" type="button" value="Verificar" onclick="verificar02()">
+
+        
+        <div id="resultado2"></div>
+        
+        <div id="resultado3"></div>
+
+    </section>
+
+    <footer>
+        <p>&copy; ArthurCorrea</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+body{
+    background-color: rgba(44, 132, 233, 0.445);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+section{
+    background-color: rgba(255, 255, 255, 0.39);
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 35px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.123);
+
+}
+
+input{
+    width: 135px;
+    height: 25px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.39);
+    font-weight: 600;
+}
+
+input#gerar {
+
+    margin-bottom: 10px;
+    margin-left: 30px;
+    
+    background-color: rgb(44, 132, 233, 0.445);
+    
+}
+
+input#limpar {
+    background-color: rgba(63, 196, 201, 0.445);
+    margin-left: 30px;
+    
+}
+
+div#inputs {
+    margin-left: 25px;
+}
+
+select{
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.39);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 550px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+    font-size: 15pt;
+}
+
+p {
+    font-weight: 600;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+

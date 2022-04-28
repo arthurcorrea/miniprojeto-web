@@ -1,0 +1,59 @@
+
+body{
+    background-color: rgba(44, 132, 233, 0.445);
+    font: normal 14pt Arial;
+    margin-top: 40px;
+}
+
+header{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+input#verificar {
+    background-color: rgb(44, 132, 233, 0.445);
+    width: 130px;
+    font-weight: 600;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+
+input#txtAno {
+    margin-left: 0px;
+    margin-right: 12px;
+    margin-bottom: 3px;
+    border-radius: 15px;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(255, 255, 255, 0.39);
+}
+
+input#radsex {
+    width: 20px;
+    height: 20px;
+}
+
+section{
+    background-color: rgba(255, 255, 255, 0.39);
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
+}
+
+div#resultado {
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+

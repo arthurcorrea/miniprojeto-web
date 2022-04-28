@@ -1,0 +1,42 @@
+body{
+    background-color: rgba(44, 132, 233, 0.445);
+    font: normal 15pt Arial;
+    margin-top: 40px;
+}
+
+img#imagem{
+    height: 350px;
+    width: 350px;
+    border-radius: 50px;
+}
+
+header{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+div{
+    text-align: center;
+    padding: 10px;
+}
+
+div#mensagem {
+    font-weight: 600;
+}
+
+section{
+    background-color: rgba(44, 132, 233, 0.445);
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+

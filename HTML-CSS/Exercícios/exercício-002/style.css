@@ -1,0 +1,57 @@
+
+main {
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.39);
+    border-radius: 10px;
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.301);
+    
+}
+
+header{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+body{
+    background-color: rgba(44, 132, 233, 0.445);
+    font: normal 15pt Arial;
+}
+
+iframe {
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+a#thumbs {
+    margin-left: 40px;
+}
+
+a#js {
+    margin-left: 0px;
+}
+
+img {
+    width: 280px;
+    border-radius: 15px;
+}
+
+img#voltar {
+    width: 50px;
+    
+}
+
+p#cscompleto {
+    margin-left: 180px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+
