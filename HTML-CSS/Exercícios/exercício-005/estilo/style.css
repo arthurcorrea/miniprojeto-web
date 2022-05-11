@@ -24,7 +24,7 @@ header > h1 {
 
 header p {
     padding-bottom: 50px;
-    font: 16px 'Verdana';
+    font: 15px 'Verdana';
 }
 
 a {
@@ -45,19 +45,13 @@ section {
 }
 
 .estrofe-imagem {
+    margin-left: 5px;
     padding: 10px 5px 10px 10px;
     max-width: 350px;
     color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.247);
     background-color: rgba(0, 0, 0, 0.253);
     border-radius: 5px;
-}
-
-.duas-estrofes {
-    
-}
-
-.normal {
-      
 }
 
 #primeira-imagem {
@@ -65,14 +59,16 @@ section {
     background-image: url('../imagens/background001.jpg');
     background-position: right bottom;
     background-attachment: fixed;
-    padding: 20px;  
+    background-size: cover;
+    padding: 80px 20px 80px 15px;  
+    box-shadow: inset 3px 3px 10px 0px rgba(0, 0, 0, 0.308);
 }
 
 #segunda-imagem {
     background-image: url('../imagens/background002.jpg');
-    background-position: center bottom;
+    background-position: right bottom;
     background-attachment: fixed;
-    padding: 20px;
+    padding: 80px 20px 80px 15px;
 }
 
 p {
