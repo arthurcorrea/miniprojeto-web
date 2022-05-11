@@ -19,7 +19,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: 'Passion One', cursive; 
-    font-size: 8vw;
+    font-size: 10vw;
 }
 
 header p {
@@ -41,7 +41,7 @@ section {
     font-family: 'Sriracha', cursive;
     padding: 5vh 0px 5vh 30px;
     line-height: 2em;
-    font-size: 20px;
+    font-size: 26px;
 }
 
 .estrofe-imagem {
@@ -57,7 +57,7 @@ section {
 #primeira-imagem {
     max-height: 1900px;
     background-image: url('../imagens/background001.jpg');
-    background-position: right bottom;
+    background-position: center bottom;
     background-attachment: fixed;
     background-size: cover;
     padding: 80px 20px 80px 15px;  
@@ -72,7 +72,11 @@ section {
 }
 
 p {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.duas-estrofes > p {
+    padding-bottom: 40px;
 }
 
 footer {
