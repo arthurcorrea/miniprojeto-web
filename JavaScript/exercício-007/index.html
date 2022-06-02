@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equação de segundo grau</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+    
+    <section>
+        <header>
+            <h1>Calculando equação de segundo grau: </h1>
+            <h2> 
+                <span id="aTitulo">a</span>x<sup>2</sup> + 
+                <span id="bTitulo">b</span>x + 
+                <span id="cTitulo">c</span> = 0
+            </h2>
+        </header>
+
+        <div id="inputs">
+            
+            <p>
+                a: <input type="number" placeholder="0" name="a" id="a" class="variaveis">
+                b: <input type="number" placeholder="0" name="b" id="b" class="variaveis">
+                c: <input type="number" placeholder="0" name="c" id="c" class="variaveis">
+
+                <input type="button" value="Calcular" id="calcular" onclick="calcular()">
+            </p>
+        </div>
+
+        <div id="resultado">
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; ArthurCorrea</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
