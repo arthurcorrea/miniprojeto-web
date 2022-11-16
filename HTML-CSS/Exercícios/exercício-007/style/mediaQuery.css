@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 740px) and (max-width: 992px){
+
+    h1 {
+        margin-top: 15px;
+    }
+
+    form {
+        margin-top: 150px;
+    }
+
+    .login {
+        width: 80vw;
+    }
+
+    .login > .imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    .login > .formulario {
+        float: right;
+        width: 70%;
+    }
+
+    .entrar {
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (min-width: 993px) {
+
+    h1 {
+        margin-top: 15px;
+    }
+
+    form {
+        margin-top: 150px;
+    }
+
+    .login {
+        width: 950px;
+    }
+
+    .login > .imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    .login > .formulario {
+        float: right;
+        width: 50%;
+    }
+
+    .entrar {
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+
+}

@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html, body {
+    background-image: linear-gradient(rgb(61, 61, 61), rgb(110, 110, 110), rgb(177, 177, 177));
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    margin-top: 15px;
+}
+
+.tela {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 15px;
+    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+    
+    transform: translate(-50%, -50%);
+    transition: width .3s height .3s;
+    transition-timing-function: ease;
+}
+
+.login > .imagem {
+    display: block;
+    background: #8a57ac url(../imgs/pexels-mobi-day-4399984.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 150px;
+}
+
+.login > .formulario {
+    display: block;
+    padding: 10px;
+}
+
+.formulario > h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+form > .campo {
+    display: block;
+    height: 40px;
+    
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.campo > input {
+    width: 85%;
+    padding: 7px;
+    
+    border-radius: 5px;
+    border: 0.5px solid;
+    
+}
+
+.campo span {
+    font-size: 1.8em;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+}
+
+.botao {
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(202, 202, 202);
+    font-size: 1em;
+    
+    cursor: pointer;
+    transition: .3s;
+}
+
+.botao:hover {
+    background-color: rgb(177, 177, 177);
+}
+
+.entrar {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.esqueci {
+    background-color: rgb(156, 156, 156);
+}
